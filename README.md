@@ -15,7 +15,7 @@
 * **GitHub Repository:** `https://github.com/aditya052003/little-steps-childcare`
 * **Detailed Project Report:** [docs/PROJECT_REPORT.md](docs/PROJECT_REPORT.md) (or `https://github.com/aditya052003/little-steps-childcare/blob/main/docs/PROJECT_REPORT.md`)
 * **Live Deployment Link:** `https://aditya052003.github.io/little-steps-childcare/`
-* **Feedback Video Link:** `https://www.loom.com/share/<your-loom-video-id>` (or unlisted YouTube link)
+* **Feedback Video Link:** `https://github.com/aditya052003/little-steps-childcare/raw/main/docs/videos/little_steps_feedback_video.mp4` (also live at `https://aditya052003.github.io/little-steps-childcare/videos/little_steps_feedback_video.mp4`)
 
 ---
 

@@ -36,6 +36,35 @@ export default function FeedbackView({ onNavigate }) {
         </div>
       </div>
 
+      {/* Embedded Video Player */}
+      <div className="bg-slate-900 rounded-3xl p-6 border border-slate-800 shadow-xl space-y-4">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between text-white gap-2">
+          <div className="flex items-center gap-2 font-bold text-sm">
+            <Video className="w-5 h-5 text-brand-500" />
+            <span>Official Project Feedback & Demonstration Video (2:04)</span>
+          </div>
+          <span className="text-xs bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-2.5 py-0.5 rounded-full font-bold self-start sm:self-auto">
+            1080p HD Presentation Ready
+          </span>
+        </div>
+
+        <div className="relative rounded-2xl overflow-hidden bg-black aspect-video border border-slate-800 shadow-inner">
+          <video
+            controls
+            preload="metadata"
+            className="w-full h-full object-contain"
+            src="./videos/little_steps_feedback_video.mp4"
+          >
+            Your browser does not support HTML5 video.
+          </video>
+        </div>
+
+        <div className="flex flex-wrap items-center justify-between text-xs text-slate-400 pt-1">
+          <div>Direct Video File: <a href="./videos/little_steps_feedback_video.mp4" download className="text-brand-400 hover:underline font-semibold">little_steps_feedback_video.mp4 (2.4 MB)</a></div>
+          <div>Presented by: <strong className="text-white">Aditya</strong></div>
+        </div>
+      </div>
+
       {/* Video Presentation Guide & Highlights */}
       <div className="bg-white rounded-3xl p-8 border border-slate-200 shadow-xs space-y-6">
         <div className="flex items-center justify-between border-b border-slate-100 pb-4">
