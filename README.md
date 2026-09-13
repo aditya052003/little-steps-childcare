@@ -12,9 +12,9 @@
 
 ## 📌 Submission Links
 
-* **GitHub Repository:** `https://github.com/<your-username>/little-steps-childcare`
-* **Detailed Project Report:** [docs/PROJECT_REPORT.md](docs/PROJECT_REPORT.md) (or `https://github.com/<your-username>/little-steps-childcare/blob/main/docs/PROJECT_REPORT.md`)
-* **Live Deployment Link:** `https://little-steps-childcare.vercel.app` (or your chosen deployment host)
+* **GitHub Repository:** `https://github.com/aditya052003/little-steps-childcare`
+* **Detailed Project Report:** [docs/PROJECT_REPORT.md](docs/PROJECT_REPORT.md) (or `https://github.com/aditya052003/little-steps-childcare/blob/main/docs/PROJECT_REPORT.md`)
+* **Live Deployment Link:** `https://little-steps-childcare.vercel.app`
 * **Feedback Video Link:** `https://www.loom.com/share/<your-loom-video-id>` (or unlisted YouTube link)
 
 ---
