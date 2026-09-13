@@ -93,6 +93,16 @@ export default function Navbar({ currentView, setCurrentView }) {
             >
               24×7 Plans & Subscriptions
             </button>
+            <button
+              onClick={() => setCurrentView('feedback')}
+              className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+                currentView === 'feedback'
+                  ? 'text-brand-600 bg-brand-50'
+                  : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
+              }`}
+            >
+              Project Feedback & Demo
+            </button>
 
             {/* Role-Specific Direct Dashboards */}
             {currentUser?.role === 'parent' && (

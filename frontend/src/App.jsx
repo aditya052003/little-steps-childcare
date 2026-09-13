@@ -8,6 +8,7 @@ import ParentDashboard from './pages/ParentDashboard';
 import ProviderDashboard from './pages/ProviderDashboard';
 import AdminDashboard from './pages/AdminDashboard';
 import SubscriptionsView from './pages/SubscriptionsView';
+import FeedbackView from './pages/FeedbackView';
 import { CheckCircle2, AlertCircle, Info, X } from 'lucide-react';
 
 function AppContent() {
@@ -77,6 +78,10 @@ function AppContent() {
 
         {currentView === 'subscriptions' && (
           <SubscriptionsView onNavigate={handleNavigate} />
+        )}
+
+        {currentView === 'feedback' && (
+          <FeedbackView onNavigate={handleNavigate} />
         )}
       </main>
 
